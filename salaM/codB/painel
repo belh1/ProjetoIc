@@ -1,0 +1,18 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class painel : MonoBehaviour
+{
+   public GameObject codigo;
+   public bool ativar = true;
+  
+
+   public void Click(){
+      ativar =!ativar;
+      codigo.SetActive(ativar);
+   }
+   
+ 
+}
